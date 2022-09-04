@@ -88,3 +88,9 @@ const swiperProduct = new Swiper('.product-swiper', {
         swiper: swiperProductThumbs
     }
 });
+
+
+const gallery = new Viewer(document.getElementById('gallery-items'), {
+    navbar: 0,
+    title: false,
+});
